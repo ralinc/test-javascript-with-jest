@@ -13,6 +13,9 @@
   "author": "Ralin Chimev <ralin.chimev@gmail.com> (http://www.ralin.net/)",
   "license": "MIT",
   "devDependencies": {
+    "babel-jest": "^21.2.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2017": "^6.24.1",
     "jest-cli": "^21.2.1"
   },
   "jest": {
