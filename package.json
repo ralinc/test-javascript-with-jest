@@ -4,7 +4,7 @@
   "description": "Examples for testing JavaScript with Jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
     "jest-cli": "^21.2.1"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "src/*.js"
+    ]
   }
 }
