@@ -125,9 +125,7 @@
 * The Jest API
     * Define the SUT using `dontMock`
     * Group tests in a `describe()` block
-    * Define a single test with `it()`
+    * Define a single test with `it()` or `test()`
     * Jasmine-like `expect(value).toBe(other)`
-
-* Test utils
-
-* Asynchronous testing
+    * Snapshot testing
+    * Asynchronous testing
