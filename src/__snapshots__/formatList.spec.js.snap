@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formats a list 1`] = `
+"List List foo::
+  - bar
+  - baz"
+`;
